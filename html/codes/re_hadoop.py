@@ -13,7 +13,7 @@ def hadoop(ip):
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2873a80eb4.js" crossorigin="anonymous"></script>
 
-    <title>Softy Pinko - Bootstrap 4.0 Theme</title>
+    <title>Adarsh - Automation</title>
     <!--
 SOFTY PINKO
 https://templatemo.com/tm-535-softy-pinko

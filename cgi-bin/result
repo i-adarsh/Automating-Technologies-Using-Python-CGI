@@ -25,7 +25,7 @@ print('''
 
     <script src="https://kit.fontawesome.com/2873a80eb4.js" crossorigin="anonymous"></script>
 
-    <title>Softy Pinko - Bootstrap 4.0 Theme</title>
+    <title>Adarsh - Automation</title>
     <!--
 SOFTY PINKO
 https://templatemo.com/tm-535-softy-pinko
@@ -4266,7 +4266,7 @@ print('''
                             <h2> &nbsp; &nbsp; </h2>
                             </div>
                             <div class="card-body" align="center">
-                                <a href="http://192.168.43.86/docker_menu.html" class="main-button">Back</a>
+                                <a href="http://34.201.82.13/docker_menu.html" class="main-button">Back</a>
                                 <br/><br/>
                             </div>
                         </div>
