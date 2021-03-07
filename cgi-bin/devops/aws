@@ -1,0 +1,40 @@
+#!/usr/bin/python3 
+
+print('content-type: text/html')
+print()
+
+import header
+
+header.header()
+
+print('''
+            <div class="row">
+                <!-- ***** Testimonials Item Start ***** -->
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="team-item">
+                        <div class="team-content">
+                            <i><img src="assets/images/resize_64.png" alt=""></i>
+                            <div class="pricing-header">
+                                <i><img src="http://'''+ header.ip() +'''/assets/images/aws-logo-main.png" alt=""></i>
+                                <br />
+                                <br />
+                                <h3 class="pricing-title" align="center">Command &nbsp; Output</h3>
+                                <br />
+                            </div>''')
+
+import subprocess
+import cgi
+                            
+form = cgi.FieldStorage()
+cmd = form.getvalue('message')
+
+output = subprocess.getoutput(cmd)
+
+
+print("<br /><div class='col-lg-12'><pre style='border:grey; border-width:1px; border-style:solid; padding: 20px;' >")
+print()
+print(output +"&#160;</pre></div><br/><br />")
+print('<br/>')
+
+
+header.footer("aws")
